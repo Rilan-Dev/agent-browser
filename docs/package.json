@@ -4,9 +4,9 @@
   "private": true,
   "packageManager": "pnpm@11.1.3",
   "scripts": {
-    "dev": "portless agent-browser next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && portless agent-browser next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint",
     "postinstall": "fumadocs-mdx",
     "prebuild": "fumadocs-mdx",

@@ -20,7 +20,6 @@ npm-debug.log*
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -43,9 +42,6 @@ package-lock.json
 yarn.lock
 
 # Environment
-.env
-.env.local
-.env.*
 !.env.example
 !.env.*.example
 
@@ -68,3 +64,4 @@ docs/package-lock.json
 .next/
 out/
 next-env.d.ts
+config.bat
