@@ -29,7 +29,7 @@
     }
   },
   "scripts": {
-    "build": "eve extension build && tsc -p tsconfig.sandbox.json",
+    "build": "node init && eve extension build && tsc -p tsconfig.sandbox.json",
     "prepare": "pnpm -C ../sandbox run build && pnpm run build",
     "test": "pnpm -C ../sandbox run build && pnpm run build && node --test test/*.test.mjs",
     "typecheck": "tsc"
